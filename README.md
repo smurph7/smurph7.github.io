@@ -1,2 +1,2 @@
 # smurph7.github.io
-react app
+Go to https://smurph7.github.io
