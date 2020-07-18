@@ -1,0 +1,24 @@
+$borderRadius: 20px
+    
+.card
+    display: flex
+    flex-direction: column
+    max-width: 225px
+    margin: 10px
+    cursor: pointer
+    border-radius: $borderRadius
+    transition: all 0.3s ease
+    box-shadow: 0 6px 10px -5px rgba(0, 0, 0, 0.2)
+    &:hover
+        transform: translateY(-5px)
+        box-shadow: 0 20px 20px -15px rgba(0, 0, 0, 0.3)
+
+.cardHeading
+    line-height: 1.4
+    font-size: 16px
+    padding: 0px 15px 0px 15px
+
+.cardImage
+    object-fit: cover
+    border-top-left-radius: $borderRadius
+    border-top-right-radius: $borderRadius
